@@ -1,0 +1,14 @@
+﻿# XDV Verification Workspace Manifest
+
+[workspace]
+name = "xdv_verification"
+version = "0.1.0"
+description = "Formal verification targets, models, and proof obligations."
+
+[sector]
+name = "xdv_verification"
+path = "src"
+
+[target.x64-pc-none]
+linker = "ld"
+linker_flags = ["-nostdlib", "-static"]
